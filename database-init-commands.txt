@@ -1,0 +1,3 @@
+flask db init
+flask db migrate -m 'initialization state'
+flask db upgrade

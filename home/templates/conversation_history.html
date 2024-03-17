@@ -1,0 +1,24 @@
+<table class="table table-hover">
+    <tr valign='top'>
+        <td width='70px'>
+            <img src=" {{ conversation.author.avatar(36) }} ">
+        </td>
+        <td>
+            <span class="user_popup">
+                <a href="{{ url_for('user', username=conversation.author.username) }}">
+                    {{ conversation.author.username }}
+                </a>
+            </span>
+            chat
+            <span>
+            {{ moment(conversation.timestamp).fromNow() }}:
+            </span><br>
+            <span style="display:left">
+                User Input: {{ conversation.user_input }} <br><br>
+            </span>
+            <span>
+                Bot Response: {{ conversation.bot_response }}
+            </span>
+        </td>
+    </tr>
+</table>
