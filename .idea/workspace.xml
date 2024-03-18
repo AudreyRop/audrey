@@ -5,77 +5,21 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="b5b87590-285c-433b-8085-e475128cc3e0" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.env" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.env-template" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.flaskenv" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/audrey.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/profiles_settings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Procfile" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app.db" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/best_model.h5" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/config.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/database-init-commands.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/home/BOSA_LOAN_FORMS.pdf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/home/Fixed_Deposit_Account_Opening_Form (1).pdf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/home/Fixed_Deposit_Account_Opening_Form.pdf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/home/Personal_SavingsAC_Opening_Form (1).pdf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/home/Personal_SavingsAC_Opening_Form.pdf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/home/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/home/best_model.h5" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/home/errors.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/home/forms.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/home/label_encoder.pkl" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/home/logs/audrey.log" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/home/models.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/home/mwalimu_sacco2.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/home/routes.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/home/session_tracker.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/home/static/css/chat.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/home/static/css/home.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/home/static/css/main.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/home/static/css/main.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/home/static/css/nev.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/home/static/images/chatbot3.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/home/static/images/growing.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/home/static/images/logo.jpeg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/home/static/images/profile.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/home/static/scripts/chat.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/home/static/scripts/jquery-3.6.4.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/home/static/scripts/jquery.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/home/static/scripts/main.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/home/static/scripts/main.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/home/static/scripts/nev.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/home/static/scripts/responses.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/home/static/scripts/session_management.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/home/templates/Nev.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/home/templates/about_us.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/home/templates/base1.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/home/templates/chatting.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/home/templates/conversation_history.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/home/templates/edit_profile.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/home/templates/header.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/home/templates/login.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/home/templates/nav.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/home/templates/user.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/home/templates/user_popup.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/home/tokenizer.pkl" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/main.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/migrations/README" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/migrations/alembic.ini" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/migrations/env.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/migrations/script.py.mako" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/migrations/versions/7944ea871abb_initialization_state.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mwalimu_sacco2.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/my_app.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/best_model1.h5" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/home/best_model1.h5" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/home/label_encoder1.pkl" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/home/mwalimu_sacco.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/home/tokenizer1.pkl" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/label_encoder.pkl" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mwalimu_sacco.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tokenizer.pkl" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app.db" beforeDir="false" afterPath="$PROJECT_DIR$/app.db" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/best_model.h5" beforeDir="false" afterPath="$PROJECT_DIR$/best_model.h5" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/home/best_model.h5" beforeDir="false" afterPath="$PROJECT_DIR$/home/best_model.h5" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/home/label_encoder.pkl" beforeDir="false" afterPath="$PROJECT_DIR$/home/label_encoder.pkl" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/home/routes.py" beforeDir="false" afterPath="$PROJECT_DIR$/home/routes.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/home/tokenizer.pkl" beforeDir="false" afterPath="$PROJECT_DIR$/home/tokenizer.pkl" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -107,21 +51,21 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "ASKED_ADD_EXTERNAL_FILES": "true",
-    "DefaultHtmlFileTemplate": "HTML File",
-    "Python.config.executor": "Run",
-    "Python.main.executor": "Run",
-    "Python.models.executor": "Run",
-    "Python.routes.executor": "Run",
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "git-widget-placeholder": "master",
-    "last_opened_file_path": "/home/tj/Rop/audrey"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;ASKED_ADD_EXTERNAL_FILES&quot;: &quot;true&quot;,
+    &quot;DefaultHtmlFileTemplate&quot;: &quot;HTML File&quot;,
+    &quot;Python.config.executor&quot;: &quot;Run&quot;,
+    &quot;Python.main.executor&quot;: &quot;Run&quot;,
+    &quot;Python.models.executor&quot;: &quot;Run&quot;,
+    &quot;Python.routes.executor&quot;: &quot;Run&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;last_opened_file_path&quot;: &quot;/home/tj/Rop/chat&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$" />

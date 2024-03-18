@@ -51,7 +51,7 @@ except Exception as e:
     logging.error(f"Error during initialization: {e}")
 
 try:
-    with open('home/mwalimu_sacco2.json') as content:
+    with open('home/mwalimu_sacco.json') as content:
         data1 = json.load(content)
     # data = open('mwalimu_sacco2.json', 'r')
 
@@ -125,7 +125,7 @@ def chatbot():
             predicted_class = np.argmax(predictions)
             predicted_tag = le.inverse_transform([predicted_class])[0]
             # Check if the predicted tag is 'loan_inquiry'
-            if predicted_tag == 'loan_types':
+            if predicted_tag == 'loan_inquiry':
                 # Handle loan inquiry specific response
                 response = random.choice(responses.get(predicted_tag, ['Sorry, I don\'t understand.']))
                 response += f"""<br/><br/>Here are some of the loans we offer\
