@@ -5,21 +5,16 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="b5b87590-285c-433b-8085-e475128cc3e0" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/best_model1.h5" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/home/best_model1.h5" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/home/label_encoder1.pkl" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/home/mwalimu_sacco.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/home/tokenizer1.pkl" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/label_encoder.pkl" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mwalimu_sacco.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tokenizer.pkl" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Dockerfile" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docker-compose.yml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app.db" beforeDir="false" afterPath="$PROJECT_DIR$/app.db" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/best_model.h5" beforeDir="false" afterPath="$PROJECT_DIR$/best_model.h5" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/home/best_model.h5" beforeDir="false" afterPath="$PROJECT_DIR$/home/best_model.h5" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/home/label_encoder.pkl" beforeDir="false" afterPath="$PROJECT_DIR$/home/label_encoder.pkl" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/home/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/home/__init__.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/home/routes.py" beforeDir="false" afterPath="$PROJECT_DIR$/home/routes.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/home/tokenizer.pkl" beforeDir="false" afterPath="$PROJECT_DIR$/home/tokenizer.pkl" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/home/templates/about_us.html" beforeDir="false" afterPath="$PROJECT_DIR$/home/templates/about_us.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/home/templates/base.html" beforeDir="false" afterPath="$PROJECT_DIR$/home/templates/base.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/home/templates/nav.html" beforeDir="false" afterPath="$PROJECT_DIR$/home/templates/nav.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/requirements.txt" beforeDir="false" afterPath="$PROJECT_DIR$/requirements.txt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -31,6 +26,7 @@
       <list>
         <option value="HTML File" />
         <option value="Python Script" />
+        <option value="Dockerfile" />
       </list>
     </option>
   </component>
@@ -103,11 +99,17 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
+    <configuration default="true" type="docker-deploy" factoryName="dockerfile" temporary="true">
+      <deployment type="dockerfile">
+        <settings />
+      </deployment>
+      <method v="2" />
+    </configuration>
   </component>
   <component name="SharedIndexes">
     <attachedChunks>
       <set>
-        <option value="bundled-python-sdk-d68999036c7f-d3b881c8e49f-com.jetbrains.pycharm.community.sharedIndexes.bundled-PC-233.14475.56" />
+        <option value="bundled-python-sdk-09665e90c3a7-d3b881c8e49f-com.jetbrains.pycharm.community.sharedIndexes.bundled-PC-233.15026.15" />
       </set>
     </attachedChunks>
   </component>

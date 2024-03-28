@@ -1,0 +1,33 @@
+version: '3'
+
+services:
+  app:
+    build: .
+    ports:
+      - "5000:5000"
+    environment:
+      # Define environment variables from config.py
+      - SECRET_KEY=SECRET_KEY
+      - CONVERSATIONS_PER_PAGE=CONVERSATIONS_PER_PAGE
+      - DATABASE_URL=postgresql://myuser:mypassword@db/mydatabase
+      - tokenizer_file_path=tokenizer_file_path
+      - label_encoder_file_path=label_encoder_file_path
+      - model_file_path=model_file_path
+      # Add other environment variables as needed
+    volumes:
+      - ./logs:/app/logs  # Mount a volume for logs if required
+    depends_on:
+      - db
+    # Add other configurations as needed
+
+  db:
+    image: postgres:latest
+    environment:
+      - POSTGRES_USER=myuser
+      - POSTGRES_PASSWORD=mypassword
+      - POSTGRES_DB=mydatabase
+    volumes:
+      - db-data:/var/lib/postgresql/data
+
+volumes:
+  db-data:

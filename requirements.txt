@@ -212,6 +212,7 @@ opencv-python==4.9.0.80
 openpyxl==3.1.2
 opt-einsum==3.3.0
 otter-grader==5.5.0
+overpy==0.7
 packaging==21.3
 pandas==1.4.3
 pandocfilters==1.5.1

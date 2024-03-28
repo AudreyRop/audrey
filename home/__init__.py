@@ -46,4 +46,4 @@ if not app.debug:
     app.logger.setLevel(logging.INFO)
     app.logger.info('audrey')
 
-from home import routes, errors, models
+from home import routes, errors, models,session_tracker

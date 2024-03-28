@@ -10,6 +10,7 @@
 {% block styles %}
     {{  super() }}
     <link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='css/main.css') }}">
+<link rel="stylesheet" href="static/css/chat.css">
     <script src="/static/scripts/session_management.js"></script>
     <script src="https://code.jquery.com/jquery-3.6.4.min.js"></script>
     <script src="/static/scripts/jquery-3.6.4.min.js"></script>
@@ -20,7 +21,7 @@
 <!-- The title of our application is defined here -->
 {% block title %}
     {% if title %}
-        {{ title }} - Imarisha Sacco
+        {{ title }} - Imarish Sacco
     {% else %}
         Imarisha Sacco
     {% endif %}
@@ -62,7 +63,7 @@
     <!-- Timestamp formatting -->
     {{ moment.include_moment() }}
     <!-- End of timestamp formatting -->
-
+    <script src="static/scripts/chat.js"></script>
     <script>
         $(function () {
             var timer = null;

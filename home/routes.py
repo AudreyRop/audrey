@@ -125,7 +125,7 @@ def chatbot():
             predicted_class = np.argmax(predictions)
             predicted_tag = le.inverse_transform([predicted_class])[0]
             # Check if the predicted tag is 'loan_inquiry'
-            if predicted_tag == 'loan_inquiry':
+            if predicted_tag == 'loan_types':
                 # Handle loan inquiry specific response
                 response = random.choice(responses.get(predicted_tag, ['Sorry, I don\'t understand.']))
                 response += f"""<br/><br/>Here are some of the loans we offer\
